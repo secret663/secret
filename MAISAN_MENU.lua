@@ -912,7 +912,7 @@ main.Size = UDim2.new(0, 300, 0, 120)
 
 main.Position = UDim2.new(0.5, -150, 0.5, -60)
 
-main.BackgroundColor3 = Color3.fromRGB(18,18,18)
+main.BackgroundColor3 = Color3.fromRGB(255,255,255)
 
 main.BorderSizePixel = 0
 
@@ -930,9 +930,9 @@ title.Size = UDim2.new(1, 0, 0.25, 0)
 
 title.Position = UDim2.new(0, 0, 0, 0)
 
-title.Text = "MAISAN MUSIC EXPLOITS"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0) -- White
+title.TextColor3 = Color3.fromRGB(255,255,255) -- White
 
 title.BackgroundTransparency = 1
 
@@ -952,7 +952,7 @@ inputBox.PlaceholderText = "Enter Music ID [3KTG]"
 
 inputBox.Text = ""
 
-inputBox.TextColor3 = Color3.fromRGB(0,0,0)
+inputBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 inputBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
@@ -972,7 +972,7 @@ toggleButton.Position = UDim2.new(0.25, 0, 0.7, 0)
 
 toggleButton.Text = "OFF"
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White
 
 toggleButton.BackgroundTransparency = 1
 
@@ -1084,7 +1084,7 @@ toggleButton.Position = UDim2.new(0, 20, 0, 120)
 
 toggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 toggleButton.Text = "ESP: ON"
 
@@ -1860,9 +1860,9 @@ Title.Size = UDim2.new(1, 0, 0, 30)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN AIMBOT" -- Custom Title
+Title.Text = "KILL DOT ENEMY" -- Custom Title
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -1922,7 +1922,7 @@ FOVLabel.Position = UDim2.new(0, 0, 0.45, 0)
 
 FOVLabel.BackgroundTransparency = 1
 
-FOVLabel.TextColor3 = Color3.fromRGB(0,0,0)
+FOVLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 FOVLabel.TextSize = 14
 
@@ -1942,7 +1942,7 @@ ToggleButton.Position = UDim2.new(0.1, 0, 0.7, 0)
 
 ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ToggleButton.TextSize = 14
 
@@ -2110,9 +2110,9 @@ Title.Font = Enum.Font.SourceSansBold
 
 Title.TextSize = 18
 
-Title.Text = "MAISAN LOOP BRING ALL"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0) -- white
+Title.TextColor3 = Color3.fromRGB(255,255,255) -- white
 
 
 
@@ -2130,7 +2130,7 @@ StatusButton.Text = "OFF"
 
 StatusButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black
 
-StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- white text
+StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- white text
 
 
 
@@ -2162,7 +2162,7 @@ StatusButton.MouseButton1Click:Connect(function()
 
         StatusButton.Text = "ON"
 
-        StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- green text
+        StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- green text
 
     else
 
@@ -2188,7 +2188,7 @@ StatusButton.MouseButton1Click:Connect(function()
 
         StatusButton.Text = "OFF"
 
-        StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- back to white text
+        StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- back to white text
 
     end
 
@@ -2312,9 +2312,9 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN PLAYER SCANNER"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -2334,7 +2334,7 @@ ScanButton.Position = UDim2.new(0.05, 0, 0, 50)
 
 ScanButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-ScanButton.TextColor3 = Color3.fromRGB(0,0,0)
+ScanButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ScanButton.Font = Enum.Font.GothamBold
 
@@ -2428,7 +2428,7 @@ local function CreatePlayerButton(player)
 
 	PlayerButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 
-	PlayerButton.TextColor3 = Color3.fromRGB(0,0,0)
+	PlayerButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 	PlayerButton.Font = Enum.Font.Gotham
 
@@ -2476,7 +2476,7 @@ local function CreatePlayerButton(player)
 
 		Btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-		Btn.TextColor3 = Color3.fromRGB(0,0,0)
+		Btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 		Btn.Font = Enum.Font.GothamBold
 
@@ -2686,9 +2686,9 @@ Title.Size = UDim2.new(1, 0, 0, 25)
 
 Title.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black title bg
 
-Title.Text = "MAISAN AIM VIEWER"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0) -- white text
+Title.TextColor3 = Color3.fromRGB(255,255,255) -- white text
 
 Title.Font = Enum.Font.SourceSansBold
 
@@ -2708,7 +2708,7 @@ ToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black bg
 
 ToggleButton.Text = "Aim Viewer: OFF"
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- red text (off)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- red text (off)
 
 ToggleButton.Font = Enum.Font.SourceSansBold
 
@@ -2746,13 +2746,13 @@ ToggleButton.MouseButton1Click:Connect(function()
 
         ToggleButton.Text = "Aim Viewer: ON"
 
-        ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- green kapag on
+        ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- green kapag on
 
     else
 
         ToggleButton.Text = "Aim Viewer: OFF"
 
-        ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- red kapag off
+        ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- red kapag off
 
         for _, line in pairs(playerLines) do
 
@@ -2890,7 +2890,7 @@ Title.Size = UDim2.new(1, 0, 0, 30)
 
 Title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -2910,7 +2910,7 @@ PlayerList.Position = UDim2.new(0, 5, 0, 35)
 
 PlayerList.BackgroundTransparency = 1
 
-PlayerList.TextColor3 = Color3.fromRGB(0,0,0)
+PlayerList.TextColor3 = Color3.fromRGB(255,255,255)
 
 PlayerList.Font = Enum.Font.Code
 
@@ -2936,7 +2936,7 @@ WarningLabel.Position = UDim2.new(0, 0, 0, 10)
 
 WarningLabel.BackgroundTransparency = 1
 
-WarningLabel.TextColor3 = Color3.fromRGB(0,0,0)
+WarningLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 WarningLabel.TextStrokeTransparency = 0
 
@@ -2960,7 +2960,7 @@ ToggleButton.Position = UDim2.new(0, 0, 1, -25)
 
 ToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ToggleButton.Font = Enum.Font.GothamBold
 
@@ -3178,13 +3178,13 @@ titleBar.Size = UDim2.new(1, 0, 0, 36)
 
 titleBar.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-titleBar.Text = "MAISAN"
+titleBar.Text = "KILL DOT ENEMY"
 
 titleBar.Font = Enum.Font.GothamBold
 
 titleBar.TextSize = 22
 
-titleBar.TextColor3 = Color3.fromRGB(0,0,0)
+titleBar.TextColor3 = Color3.fromRGB(255,255,255)
 
 titleBar.BorderSizePixel = 0
 
@@ -3258,7 +3258,7 @@ nameLabel.Font = Enum.Font.GothamBold
 
 nameLabel.TextSize = 22
 
-nameLabel.TextColor3 = Color3.fromRGB(0,0,0)
+nameLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 nameLabel.Text = "Name: None"
 
@@ -3278,7 +3278,7 @@ healthLabel.Font = Enum.Font.Gotham
 
 healthLabel.TextSize = 18
 
-healthLabel.TextColor3 = Color3.fromRGB(0,0,0)
+healthLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 healthLabel.Text = "Health: N/A"
 
@@ -3336,7 +3336,7 @@ local function createButton(label)
 
 	b.Text = label
 
-	b.TextColor3 = Color3.fromRGB(0,0,0)
+	b.TextColor3 = Color3.fromRGB(255,255,255)
 
 	b.AutoButtonColor = true
 
@@ -3426,7 +3426,7 @@ local function refreshPlayerList()
 
 			btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-			btn.TextColor3 = Color3.fromRGB(0,0,0)
+			btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 			btn.Font = Enum.Font.Gotham
 
@@ -3688,7 +3688,7 @@ local Title = Instance.new("TextLabel", Frame)
 
 Title.Size = UDim2.new(1, 0, 0, 30)
 
-Title.Text = "MAISAN UNANCHORED TP"
+Title.Text = "KILL DOT ENEMY"
 
 Title.TextColor3 = Color3.new(1,1,1)
 
@@ -4634,7 +4634,7 @@ title.Font = Enum.Font.GothamBold
 
 title.TextSize = 16
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 
 
@@ -4728,7 +4728,7 @@ local function addToolLine(tool)
 
     btn.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -4780,7 +4780,7 @@ local function addToolLine(tool)
 
         btn.Text = " " .. tool.Name
 
-        btn.TextColor3 = Color3.fromRGB(0,0,0)
+        btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     end)
 
@@ -4974,7 +4974,7 @@ title.Font = Enum.Font.GothamBold
 
 title.TextSize = 16
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Parent = titleBar
 
@@ -5418,9 +5418,9 @@ title.Size = UDim2.new(1, 0, 0, 40)
 
 title.BackgroundTransparency = 1
 
-title.Text = "MAISAN"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -5448,7 +5448,7 @@ itemBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
 
 itemBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-itemBox.TextColor3 = Color3.fromRGB(0,0,0)
+itemBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 itemBox.Font = Enum.Font.Gotham
 
@@ -5474,7 +5474,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -5498,7 +5498,7 @@ sendButton.Text = "BUY"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -5674,9 +5674,9 @@ title.Size = UDim2.new(1, 0, 0, 40)
 
 title.BackgroundTransparency = 1
 
-title.Text = "MAISAN"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -5704,7 +5704,7 @@ itemBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
 
 itemBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-itemBox.TextColor3 = Color3.fromRGB(0,0,0)
+itemBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 itemBox.Font = Enum.Font.Gotham
 
@@ -5730,7 +5730,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -5754,7 +5754,7 @@ buyButton.Text = "BUY"
 
 buyButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-buyButton.TextColor3 = Color3.fromRGB(0,0,0)
+buyButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 buyButton.Font = Enum.Font.GothamBold
 
@@ -5906,7 +5906,7 @@ titleLabel.Text = "GOMA GUN CMDS"
 
 titleLabel.Font = Enum.Font.GothamBold
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0) -- White instead of red
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255) -- White instead of red
 
 titleLabel.TextSize = 16
 
@@ -5930,7 +5930,7 @@ textBox.PlaceholderText = "Enter Command (3KTG)"
 
 textBox.Font = Enum.Font.GothamBold
 
-textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 textBox.TextSize = 24
 
@@ -5954,7 +5954,7 @@ toggleButton.Text = "OFF"
 
 toggleButton.Font = Enum.Font.GothamBold
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White when OFF
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White when OFF
 
 toggleButton.TextSize = 22
 
@@ -6074,7 +6074,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "ON"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 		local cmdText = textBox.Text
 
@@ -6094,7 +6094,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "OFF"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White when OFF
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White when OFF
 
 	end
 
@@ -6220,7 +6220,7 @@ titleLabel.Text = "GOMA URBAN GUN BUY"
 
 titleLabel.Font = Enum.Font.GothamBold
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0) -- Changed from red to white
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255) -- Changed from red to white
 
 titleLabel.TextSize = 16
 
@@ -6240,7 +6240,7 @@ textBox.PlaceholderText = "Enter Command (3KTG)"
 
 textBox.Font = Enum.Font.GothamBold
 
-textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 textBox.TextSize = 20
 
@@ -6266,7 +6266,7 @@ toggleButton.Text = "OFF"
 
 toggleButton.Font = Enum.Font.GothamBold
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- Changed from red to white
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- Changed from red to white
 
 toggleButton.TextSize = 22
 
@@ -6388,7 +6388,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "ON"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 		local inputCmd = textBox.Text
 
@@ -6408,7 +6408,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "OFF"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White when OFF
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White when OFF
 
 	end
 
@@ -7130,7 +7130,7 @@ title.Size = UDim2.new(1, 0, 0, 40)
 
 title.BackgroundTransparency = 1
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -7154,7 +7154,7 @@ local function createButton(displayName, carName, posY)
 
     btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.Font = Enum.Font.Gotham
 
@@ -7436,7 +7436,7 @@ title.BackgroundTransparency = 1
 
 title.Text = "AUTO OXY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -7458,7 +7458,7 @@ oxyButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- full black
 
 oxyButton.Text = "OXY"
 
-oxyButton.TextColor3 = Color3.fromRGB(0,0,0)
+oxyButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 oxyButton.Font = Enum.Font.GothamBold
 
@@ -8164,7 +8164,7 @@ titleLabel.Font = Enum.Font.GothamBold
 
 titleLabel.TextSize = 22
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0)
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 titleLabel.TextXAlignment = Enum.TextXAlignment.Center
 
@@ -8188,7 +8188,7 @@ closeButton.Font = Enum.Font.GothamBold
 
 closeButton.TextSize = 18
 
-closeButton.TextColor3 = Color3.fromRGB(0,0,0)
+closeButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 closeButton.Parent = titleBar
 
@@ -8288,7 +8288,7 @@ modeButton.TextSize = 16
 
 modeButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-modeButton.TextColor3 = Color3.fromRGB(0,0,0)
+modeButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 modeButton.BorderSizePixel = 1
 
@@ -8332,7 +8332,7 @@ nameLabel.Font = Enum.Font.Gotham
 
 nameLabel.TextSize = 15
 
-nameLabel.TextColor3 = Color3.fromRGB(0,0,0)
+nameLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 nameLabel.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -8356,7 +8356,7 @@ nameBox.Font = Enum.Font.Gotham
 
 nameBox.TextSize = 15
 
-nameBox.TextColor3 = Color3.fromRGB(0,0,0)
+nameBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 nameBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
@@ -8392,7 +8392,7 @@ qtyLabel.Font = Enum.Font.Gotham
 
 qtyLabel.TextSize = 15
 
-qtyLabel.TextColor3 = Color3.fromRGB(0,0,0)
+qtyLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 qtyLabel.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -8416,7 +8416,7 @@ qtyBox.Font = Enum.Font.Gotham
 
 qtyBox.TextSize = 15
 
-qtyBox.TextColor3 = Color3.fromRGB(0,0,0)
+qtyBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 qtyBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
@@ -8452,7 +8452,7 @@ moveButton.TextSize = 16
 
 moveButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-moveButton.TextColor3 = Color3.fromRGB(0,0,0)
+moveButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 moveButton.BorderSizePixel = 1
 
@@ -8486,7 +8486,7 @@ status.TextSize = 14
 
 status.Font = Enum.Font.Gotham
 
-status.TextColor3 = Color3.fromRGB(0,0,0)
+status.TextColor3 = Color3.fromRGB(255,255,255)
 
 status.TextXAlignment = Enum.TextXAlignment.Center
 
@@ -8628,7 +8628,7 @@ title.BackgroundTransparency = 1
 
 title.Text = "AUTO OXY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -8650,7 +8650,7 @@ oxyButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- full black
 
 oxyButton.Text = "OXY"
 
-oxyButton.TextColor3 = Color3.fromRGB(0,0,0)
+oxyButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 oxyButton.Font = Enum.Font.GothamBold
 
@@ -9470,9 +9470,9 @@ Title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
 Title.BorderSizePixel = 0
 
-Title.Text = "MAISAN AUTO FARM"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.SourceSansBold
 
@@ -9494,7 +9494,7 @@ Button.BorderSizePixel = 0
 
 Button.Text = "Auto Farm: OFF"
 
-Button.TextColor3 = Color3.fromRGB(0,0,0)
+Button.TextColor3 = Color3.fromRGB(255,255,255)
 
 Button.Font = Enum.Font.SourceSansBold
 
@@ -9574,7 +9574,7 @@ Title.Size = UDim2.new(1, 0, 0.3, 0)
 
 Title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-Title.Text = "MAISAN AUTO FARM "
+Title.Text = "KILL DOT ENEMY"
 
 Title.TextColor3 = Color3.new(1,1,1)
 
@@ -10004,7 +10004,7 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN ALL CITY CMD"
+title.Text = "MAISAN MENU ALL CITY CMD"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -10328,7 +10328,7 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CAVITE RP"
+title.Text = "MAISAN MENU CAVITE RP"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -10652,7 +10652,7 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN SKIN"
+title.Text = "MAISAN MENU SKIN"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -10984,7 +10984,7 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN SKIN"
+title.Text = "MAISAN MENU SKIN"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -11300,7 +11300,7 @@ title.Size = UDim2.new(1, 0, 0, 40)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN URBAN CMD"
+title.Text = "MAISAN MENU URBAN CMD"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -12394,7 +12394,7 @@ ListTitle.Font = Enum.Font.GothamBold
 
 ListTitle.TextSize = 16
 
-ListTitle.TextColor3 = Color3.fromRGB(0,0,0)
+ListTitle.TextColor3 = Color3.fromRGB(255,255,255)
 
 ListTitle.BackgroundTransparency = 1
 
@@ -12452,7 +12452,7 @@ local function addPlayerToList(player)
 
 	btn.Text = player.DisplayName .. " (@" .. player.Name .. ")"
 
-	btn.TextColor3 = Color3.fromRGB(0,0,0)
+	btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 	btn.Font = Enum.Font.Gotham
 
@@ -13808,7 +13808,7 @@ local function createBoostGui()
 
     title.BackgroundTransparency = 1
 
-    title.Text = "MAISAN BOOST"
+    title.Text = "MAISAN MENU BOOST"
 
     title.TextColor3 = Color3.new(1,1,1)
 
@@ -14054,7 +14054,7 @@ ListTitle.Font = Enum.Font.GothamBold
 
 ListTitle.TextSize = 16
 
-ListTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+ListTitle.TextColor3 = Color3.fromRGB(255,255,255)
 
 ListTitle.BackgroundTransparency = 1
 
@@ -14110,7 +14110,7 @@ local function addPlayerToList(player)
 
 	btn.Text = player.DisplayName .. " (@" .. player.Name .. ")"
 
-	btn.TextColor3 = Color3.fromRGB(0, 0, 0)
+	btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 	btn.Font = Enum.Font.Gotham
 
@@ -14300,7 +14300,7 @@ TitleLabel.Font = Enum.Font.GothamBlack
 
 TitleLabel.TextSize = 24
 
-TitleLabel.TextColor3 = Color3.fromRGB(0,0,0)          -- BLACK TEXT
+TitleLabel.TextColor3 = Color3.fromRGB(255,255,255)          -- BLACK TEXT
 
 TitleLabel.Parent = TitleBar
 
@@ -14320,7 +14320,7 @@ CloseBtn.Font = Enum.Font.GothamBold
 
 CloseBtn.TextSize = 20
 
-CloseBtn.TextColor3 = Color3.fromRGB(0,0,0)            -- BLACK
+CloseBtn.TextColor3 = Color3.fromRGB(255,255,255)            -- BLACK
 
 CloseBtn.Parent = TitleBar
 
@@ -14394,7 +14394,7 @@ AmountLabel.Font = Enum.Font.Gotham
 
 AmountLabel.TextSize = 16
 
-AmountLabel.TextColor3 = Color3.fromRGB(0,0,0)         -- BLACK
+AmountLabel.TextColor3 = Color3.fromRGB(255,255,255)         -- BLACK
 
 AmountLabel.Parent = MainFrame
 
@@ -14416,7 +14416,7 @@ AmountBox.Font = Enum.Font.Gotham
 
 AmountBox.TextSize = 16
 
-AmountBox.TextColor3 = Color3.fromRGB(0,0,0)           -- BLACK TEXT
+AmountBox.TextColor3 = Color3.fromRGB(255,255,255)           -- BLACK TEXT
 
 AmountBox.BackgroundColor3 = Color3.new(1, 1, 1)       -- WHITE BG
 
@@ -14452,7 +14452,7 @@ IDLabel.Font = Enum.Font.Gotham
 
 IDLabel.TextSize = 16
 
-IDLabel.TextColor3 = Color3.fromRGB(0,0,0)             -- BLACK
+IDLabel.TextColor3 = Color3.fromRGB(255,255,255)             -- BLACK
 
 IDLabel.Parent = MainFrame
 
@@ -14474,7 +14474,7 @@ IDBox.Font = Enum.Font.Gotham
 
 IDBox.TextSize = 16
 
-IDBox.TextColor3 = Color3.fromRGB(0,0,0)               -- BLACK TEXT
+IDBox.TextColor3 = Color3.fromRGB(255,255,255)               -- BLACK TEXT
 
 IDBox.BackgroundColor3 = Color3.new(1, 1, 1)           -- WHITE BG
 
@@ -14520,7 +14520,7 @@ for i, mode in ipairs(modes) do
 
     btn.TextSize = 15
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)             -- BLACK TEXT
+    btn.TextColor3 = Color3.fromRGB(255,255,255)             -- BLACK TEXT
 
     btn.BorderSizePixel = 1
 
@@ -14586,7 +14586,7 @@ ExecuteBtn.Font = Enum.Font.GothamBold
 
 ExecuteBtn.TextSize = 18
 
-ExecuteBtn.TextColor3 = Color3.fromRGB(0,0,0)           -- BLACK TEXT
+ExecuteBtn.TextColor3 = Color3.fromRGB(255,255,255)           -- BLACK TEXT
 
 ExecuteBtn.BorderSizePixel = 2
 
@@ -15622,11 +15622,11 @@ frame.Parent = screenGui
 
 local titleLabel = Instance.new("TextLabel")
 
-titleLabel.Text = "MAISAN CMD"
+titleLabel.Text = "KILL DOT ENEMY"
 
 titleLabel.Font = Enum.Font.GothamBold
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0) -- White na
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255) -- White na
 
 titleLabel.TextSize = 16
 
@@ -15650,7 +15650,7 @@ textBox.PlaceholderText = "Enter Command (3KTG)"
 
 textBox.Font = Enum.Font.GothamBold
 
-textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 textBox.TextSize = 24
 
@@ -15674,7 +15674,7 @@ toggleButton.Text = "OFF"
 
 toggleButton.Font = Enum.Font.GothamBold
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White when OFF
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White when OFF
 
 toggleButton.TextSize = 22
 
@@ -15826,7 +15826,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "ON"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- Green ON
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- Green ON
 
 		local cmdText = textBox.Text
 
@@ -15846,7 +15846,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "OFF"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- White OFF
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- White OFF
 
 	end
 
@@ -15898,11 +15898,11 @@ frame.Parent = screenGui
 
 local titleLabel = Instance.new("TextLabel")
 
-titleLabel.Text = "MAISAN CMD"
+titleLabel.Text = "KILL DOT ENEMY"
 
 titleLabel.Font = Enum.Font.GothamBold
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0) -- Changed from red to white
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255) -- Changed from red to white
 
 titleLabel.TextSize = 16
 
@@ -15926,7 +15926,7 @@ textBox.PlaceholderText = "Enter Command (3KTG)"
 
 textBox.Font = Enum.Font.GothamBold
 
-textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 textBox.TextSize = 24
 
@@ -15950,7 +15950,7 @@ toggleButton.Text = "OFF"
 
 toggleButton.Font = Enum.Font.GothamBold
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- Changed from red to white
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- Changed from red to white
 
 toggleButton.TextSize = 22
 
@@ -16102,7 +16102,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "ON"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 		local cmdText = textBox.Text
 
@@ -16122,7 +16122,7 @@ toggleButton.MouseButton1Click:Connect(function()
 
 		toggleButton.Text = "OFF"
 
-		toggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- Changed OFF color to white
+		toggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- Changed OFF color to white
 
 	end
 
@@ -16184,7 +16184,7 @@ titleLabel.Text = "BRING ALL SYSTEM"
 
 titleLabel.Font = Enum.Font.GothamBold
 
-titleLabel.TextColor3 = Color3.fromRGB(0,0,0)
+titleLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 titleLabel.TextSize = 16
 
@@ -16210,7 +16210,7 @@ local function createButton(name, text, yPos)
 
 	button.Font = Enum.Font.GothamBold
 
-	button.TextColor3 = Color3.fromRGB(0,0,0)
+	button.TextColor3 = Color3.fromRGB(255,255,255)
 
 	button.TextSize = 14
 
@@ -16256,7 +16256,7 @@ textBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
 
 textBox.Font = Enum.Font.GothamBold
 
-textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 textBox.TextSize = 14
 
@@ -16904,7 +16904,7 @@ Title.BackgroundTransparency = 1
 
 Title.Text = "PERSONAL AIMBOT CHESTER" -- Custom Title
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -16964,7 +16964,7 @@ FOVLabel.Position = UDim2.new(0, 0, 0.45, 0)
 
 FOVLabel.BackgroundTransparency = 1
 
-FOVLabel.TextColor3 = Color3.fromRGB(0,0,0)
+FOVLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 FOVLabel.TextSize = 14
 
@@ -16984,7 +16984,7 @@ FOVToggleButton.Position = UDim2.new(0.1, 0, 0.7, 0)
 
 FOVToggleButton.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 
-FOVToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+FOVToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 FOVToggleButton.TextSize = 14
 
@@ -17004,7 +17004,7 @@ AimbotToggleButton.Position = UDim2.new(0.1, 0, 0.85, 0)
 
 AimbotToggleButton.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 
-AimbotToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+AimbotToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 AimbotToggleButton.TextSize = 14
 
@@ -17224,7 +17224,7 @@ local function makeToggleButton()
 
     btn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.TextSize = 16
 
@@ -17564,9 +17564,9 @@ Title.Size = UDim2.new(1, 0, 0, 30)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN AIMBOT" -- Custom Title
+Title.Text = "KILL DOT ENEMY" -- Custom Title
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -17626,7 +17626,7 @@ FOVLabel.Position = UDim2.new(0, 0, 0.45, 0)
 
 FOVLabel.BackgroundTransparency = 1
 
-FOVLabel.TextColor3 = Color3.fromRGB(0,0,0)
+FOVLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 FOVLabel.TextSize = 14
 
@@ -17646,7 +17646,7 @@ ToggleButton.Position = UDim2.new(0.1, 0, 0.7, 0)
 
 ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ToggleButton.TextSize = 14
 
@@ -18432,9 +18432,9 @@ Title.Font = Enum.Font.SourceSansBold
 
 Title.TextSize = 18
 
-Title.Text = "MAISAN LOOP BRING ALL"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0) -- white
+Title.TextColor3 = Color3.fromRGB(255,255,255) -- white
 
 
 
@@ -18452,7 +18452,7 @@ StatusButton.Text = "OFF"
 
 StatusButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black
 
-StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- white text
+StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- white text
 
 
 
@@ -18484,7 +18484,7 @@ StatusButton.MouseButton1Click:Connect(function()
 
         StatusButton.Text = "ON"
 
-        StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- green text
+        StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- green text
 
     else
 
@@ -18510,7 +18510,7 @@ StatusButton.MouseButton1Click:Connect(function()
 
         StatusButton.Text = "OFF"
 
-        StatusButton.TextColor3 = Color3.fromRGB(0,0,0) -- back to white text
+        StatusButton.TextColor3 = Color3.fromRGB(255,255,255) -- back to white text
 
     end
 
@@ -18624,9 +18624,9 @@ Title.Size = UDim2.new(1, 0, 0, 25)
 
 Title.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black title bg
 
-Title.Text = "MAISAN AIM VIEWER"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0) -- white text
+Title.TextColor3 = Color3.fromRGB(255,255,255) -- white text
 
 Title.Font = Enum.Font.SourceSansBold
 
@@ -18646,7 +18646,7 @@ ToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black bg
 
 ToggleButton.Text = "Aim Viewer: OFF"
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- red text (off)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- red text (off)
 
 ToggleButton.Font = Enum.Font.SourceSansBold
 
@@ -18684,13 +18684,13 @@ ToggleButton.MouseButton1Click:Connect(function()
 
         ToggleButton.Text = "Aim Viewer: ON"
 
-        ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- green kapag on
+        ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- green kapag on
 
     else
 
         ToggleButton.Text = "Aim Viewer: OFF"
 
-        ToggleButton.TextColor3 = Color3.fromRGB(0,0,0) -- red kapag off
+        ToggleButton.TextColor3 = Color3.fromRGB(255,255,255) -- red kapag off
 
         for _, line in pairs(playerLines) do
 
@@ -18828,7 +18828,7 @@ Title.Size = UDim2.new(1, 0, 0, 30)
 
 Title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -18848,7 +18848,7 @@ PlayerList.Position = UDim2.new(0, 5, 0, 35)
 
 PlayerList.BackgroundTransparency = 1
 
-PlayerList.TextColor3 = Color3.fromRGB(0,0,0)
+PlayerList.TextColor3 = Color3.fromRGB(255,255,255)
 
 PlayerList.Font = Enum.Font.Code
 
@@ -18874,7 +18874,7 @@ WarningLabel.Position = UDim2.new(0, 0, 0, 10)
 
 WarningLabel.BackgroundTransparency = 1
 
-WarningLabel.TextColor3 = Color3.fromRGB(0,0,0)
+WarningLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 WarningLabel.TextStrokeTransparency = 0
 
@@ -18898,7 +18898,7 @@ ToggleButton.Position = UDim2.new(0, 0, 1, -25)
 
 ToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ToggleButton.Font = Enum.Font.GothamBold
 
@@ -19090,7 +19090,7 @@ local Title = Instance.new("TextLabel", Frame)
 
 Title.Size = UDim2.new(1, 0, 0, 30)
 
-Title.Text = "MAISAN UNANCHORED TP"
+Title.Text = "KILL DOT ENEMY"
 
 Title.TextColor3 = Color3.new(1,1,1)
 
@@ -19910,7 +19910,7 @@ main.Size = UDim2.new(0, 220, 0, 100)
 
 main.Position = UDim2.new(0.5, -110, 0.5, -50)
 
-main.BackgroundColor3 = Color3.fromRGB(18,18,18)
+main.BackgroundColor3 = Color3.fromRGB(255,255,255)
 
 main.Active = true
 
@@ -19940,7 +19940,7 @@ title.Font = Enum.Font.GothamBold
 
 title.TextSize = 16
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 
 
@@ -19964,7 +19964,7 @@ toggleBtn.Font = Enum.Font.Gotham
 
 toggleBtn.TextSize = 14
 
-toggleBtn.TextColor3 = Color3.fromRGB(0,0,0)
+toggleBtn.TextColor3 = Color3.fromRGB(255,255,255)
 
 toggleBtn.Text = "OFF"
 
@@ -20198,7 +20198,7 @@ title.Text = "AUTO BUY"
 
 title.Font = Enum.Font.GothamBold
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.TextSize = 16
 
@@ -20222,7 +20222,7 @@ toggle.Font = Enum.Font.Gotham
 
 toggle.TextSize = 14
 
-toggle.TextColor3 = Color3.fromRGB(0,0,0)
+toggle.TextColor3 = Color3.fromRGB(255,255,255)
 
 
 
@@ -20430,9 +20430,9 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CASH MENU"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -20458,7 +20458,7 @@ itemBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 itemBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-itemBox.TextColor3 = Color3.fromRGB(0,0,0)
+itemBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 itemBox.Font = Enum.Font.Gotham
 
@@ -20484,7 +20484,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -20508,7 +20508,7 @@ sendButton.Text = "Send"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -20602,9 +20602,9 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CASH MENU"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -20630,7 +20630,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -20654,7 +20654,7 @@ sendButton.Text = "Send"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -20818,7 +20818,7 @@ toggleFrame.Size = UDim2.new(0,40,0,20)
 
 toggleFrame.Position = UDim2.new(0,10,1,-30)
 
-toggleFrame.BackgroundColor3 = Color3.fromRGB(220,220,220)
+toggleFrame.BackgroundColor3 = Color3.fromRGB(38,38,38)
 
 toggleFrame.Parent = frame
 
@@ -20912,7 +20912,7 @@ toggleFrame.InputBegan:Connect(function(input)
 
 			toggleButton.Position = UDim2.new(0, 2, 0.5, -8)
 
-			toggleFrame.BackgroundColor3 = Color3.fromRGB(220,220,220)
+			toggleFrame.BackgroundColor3 = Color3.fromRGB(38,38,38)
 
 		end
 
@@ -21038,9 +21038,9 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CASH MENU"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -21066,7 +21066,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -21090,7 +21090,7 @@ sendButton.Text = "Send"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -21180,9 +21180,9 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CASH MENU"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -21208,7 +21208,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -21232,7 +21232,7 @@ sendButton.Text = "Send"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -21322,9 +21322,9 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN CASH MENU"
+title.Text = "KILL DOT ENEMY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -21350,7 +21350,7 @@ amountBox.PlaceholderColor3 = Color3.fromRGB(100, 100, 100)
 
 amountBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-amountBox.TextColor3 = Color3.fromRGB(0,0,0)
+amountBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 amountBox.Font = Enum.Font.Gotham
 
@@ -21374,7 +21374,7 @@ sendButton.Text = "Send"
 
 sendButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-sendButton.TextColor3 = Color3.fromRGB(0,0,0)
+sendButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 sendButton.Font = Enum.Font.GothamBold
 
@@ -21528,9 +21528,9 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN PLAYER SCANNER"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -21550,7 +21550,7 @@ ScanButton.Position = UDim2.new(0.05, 0, 0, 50)
 
 ScanButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-ScanButton.TextColor3 = Color3.fromRGB(0,0,0)
+ScanButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ScanButton.Font = Enum.Font.GothamBold
 
@@ -21644,7 +21644,7 @@ local function CreatePlayerButton(player)
 
 	PlayerButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 
-	PlayerButton.TextColor3 = Color3.fromRGB(0,0,0)
+	PlayerButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 	PlayerButton.Font = Enum.Font.Gotham
 
@@ -21692,7 +21692,7 @@ local function CreatePlayerButton(player)
 
 		Btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-		Btn.TextColor3 = Color3.fromRGB(0,0,0)
+		Btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 		Btn.Font = Enum.Font.GothamBold
 
@@ -21922,7 +21922,7 @@ title.BackgroundTransparency = 1
 
 title.Text = "USERNAME COPIER"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -21948,7 +21948,7 @@ closeBtn.BorderSizePixel = 0
 
 closeBtn.Text = "✕"
 
-closeBtn.TextColor3 = Color3.fromRGB(0,0,0)
+closeBtn.TextColor3 = Color3.fromRGB(255,255,255)
 
 closeBtn.Font = Enum.Font.GothamBold
 
@@ -21982,7 +21982,7 @@ refreshBtn.BorderColor3 = Color3.fromRGB(25, 25, 25)
 
 refreshBtn.Text = "REFRESH"
 
-refreshBtn.TextColor3 = Color3.fromRGB(0,0,0)
+refreshBtn.TextColor3 = Color3.fromRGB(255,255,255)
 
 refreshBtn.Font = Enum.Font.GothamBold
 
@@ -22086,7 +22086,7 @@ local function makePlayerButton(plr)
 
 	btn.Text = plr.Name
 
-	btn.TextColor3 = Color3.fromRGB(0,0,0)
+	btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 	btn.Font = Enum.Font.Gotham
 
@@ -22590,7 +22590,7 @@ toggleButton.Position = UDim2.new(0, 20, 0, 120)
 
 toggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-toggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+toggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 toggleButton.Text = "ESP: ON"
 
@@ -22950,9 +22950,9 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN PLAYER SCANNER"
+Title.Text = "KILL DOT ENEMY"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -22972,7 +22972,7 @@ ScanButton.Position = UDim2.new(0.05, 0, 0, 50)
 
 ScanButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-ScanButton.TextColor3 = Color3.fromRGB(0,0,0)
+ScanButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ScanButton.Font = Enum.Font.GothamBold
 
@@ -23066,7 +23066,7 @@ local function CreatePlayerButton(player)
 
 	PlayerButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 
-	PlayerButton.TextColor3 = Color3.fromRGB(0,0,0)
+	PlayerButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 	PlayerButton.Font = Enum.Font.Gotham
 
@@ -23114,7 +23114,7 @@ local function CreatePlayerButton(player)
 
 		Btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-		Btn.TextColor3 = Color3.fromRGB(0,0,0)
+		Btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 		Btn.Font = Enum.Font.GothamBold
 
@@ -23338,13 +23338,13 @@ titleBar.Size = UDim2.new(1, 0, 0, 36)
 
 titleBar.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-titleBar.Text = "MAISAN"
+titleBar.Text = "KILL DOT ENEMY"
 
 titleBar.Font = Enum.Font.GothamBold
 
 titleBar.TextSize = 22
 
-titleBar.TextColor3 = Color3.fromRGB(0,0,0)
+titleBar.TextColor3 = Color3.fromRGB(255,255,255)
 
 titleBar.BorderSizePixel = 0
 
@@ -23418,7 +23418,7 @@ nameLabel.Font = Enum.Font.GothamBold
 
 nameLabel.TextSize = 22
 
-nameLabel.TextColor3 = Color3.fromRGB(0,0,0)
+nameLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 nameLabel.Text = "Name: None"
 
@@ -23438,7 +23438,7 @@ healthLabel.Font = Enum.Font.Gotham
 
 healthLabel.TextSize = 18
 
-healthLabel.TextColor3 = Color3.fromRGB(0,0,0)
+healthLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 healthLabel.Text = "Health: N/A"
 
@@ -23496,7 +23496,7 @@ local function createButton(label)
 
 	b.Text = label
 
-	b.TextColor3 = Color3.fromRGB(0,0,0)
+	b.TextColor3 = Color3.fromRGB(255,255,255)
 
 	b.AutoButtonColor = true
 
@@ -23586,7 +23586,7 @@ local function refreshPlayerList()
 
 			btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-			btn.TextColor3 = Color3.fromRGB(0,0,0)
+			btn.TextColor3 = Color3.fromRGB(255,255,255)
 
 			btn.Font = Enum.Font.Gotham
 
@@ -23928,7 +23928,7 @@ Title.BackgroundTransparency = 1
 
 Title.Text = "FPS BOOST"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.Font = Enum.Font.GothamBold
 
@@ -23946,7 +23946,7 @@ Button.Position = UDim2.new(0, 20, 0, 60)
 
 Button.BackgroundColor3 = Color3.fromRGB(18,18,18) -- black button
 
-Button.TextColor3 = Color3.fromRGB(0,0,0) -- white text
+Button.TextColor3 = Color3.fromRGB(255,255,255) -- white text
 
 Button.Font = Enum.Font.GothamBold
 
@@ -24468,7 +24468,7 @@ title.Position = UDim2.new(0, 0, 0, 0)
 
 title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-title.Text = "MAISAN VENERAL ROLEPLAY"
+title.Text = "MAISAN MENU VENERAL ROLEPLAY"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -24940,7 +24940,7 @@ Title.BackgroundTransparency = 1
 
 Title.Text = "BIG HEAD SCRIPT"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -25000,7 +25000,7 @@ SizeLabel.Position = UDim2.new(0, 0, 0.45, 0)
 
 SizeLabel.BackgroundTransparency = 1
 
-SizeLabel.TextColor3 = Color3.fromRGB(0,0,0)
+SizeLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 SizeLabel.TextSize = 14
 
@@ -25022,7 +25022,7 @@ ToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18) -- Black
 
 ToggleButton.BorderColor3 = Color3.fromRGB(0, 0, 0) -- Black border
 
-ToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 ToggleButton.TextSize = 14
 
@@ -25912,7 +25912,7 @@ Title.BackgroundTransparency = 1
 
 Title.Text = "PERSONAL PABLOVASCO"
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -25972,7 +25972,7 @@ SizeLabel.Position = UDim2.new(0, 0, 0.35, 0)
 
 SizeLabel.BackgroundTransparency = 1
 
-SizeLabel.TextColor3 = Color3.fromRGB(0,0,0)
+SizeLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 SizeLabel.TextSize = 14
 
@@ -25994,7 +25994,7 @@ HeadToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
 HeadToggleButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
-HeadToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+HeadToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 HeadToggleButton.TextSize = 14
 
@@ -26016,7 +26016,7 @@ AimToggleButton.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
 AimToggleButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
-AimToggleButton.TextColor3 = Color3.fromRGB(0,0,0)
+AimToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 
 AimToggleButton.TextSize = 14
 
@@ -26524,7 +26524,7 @@ title.Size = UDim2.new(1,0,0,44)
 
 title.BackgroundTransparency = 1
 
-title.Text = "MAISAN CASH"
+title.Text = "MAISAN MENU CASH"
 
 title.TextColor3 = Color3.new(1,1,1)
 
@@ -26968,7 +26968,7 @@ title.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
 title.Text = "CROSSHAIR AIMBOT - GOMA"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -27052,7 +27052,7 @@ local modeLabel = Instance.new("TextLabel")
 
 modeLabel.Text = "Aimbot Mode:"
 
-modeLabel.TextColor3 = Color3.fromRGB(0,0,0)
+modeLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 modeLabel.Size = UDim2.new(0, 120, 0, 25)
 
@@ -27080,7 +27080,7 @@ modeDropdown.Position = UDim2.new(0, 140, 0, 10)
 
 modeDropdown.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-modeDropdown.TextColor3 = Color3.fromRGB(0,0,0)
+modeDropdown.TextColor3 = Color3.fromRGB(255,255,255)
 
 modeDropdown.Font = Enum.Font.Gotham
 
@@ -27126,7 +27126,7 @@ local smoothLabel = Instance.new("TextLabel")
 
 smoothLabel.Text = "Smoothness:"
 
-smoothLabel.TextColor3 = Color3.fromRGB(0,0,0)
+smoothLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 smoothLabel.Size = UDim2.new(0, 120, 0, 25)
 
@@ -27150,7 +27150,7 @@ smoothBox.Position = UDim2.new(0, 140, 0, 45)
 
 smoothBox.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-smoothBox.TextColor3 = Color3.fromRGB(0,0,0)
+smoothBox.TextColor3 = Color3.fromRGB(255,255,255)
 
 smoothBox.PlaceholderText = tostring(Smoothness)
 
@@ -27196,7 +27196,7 @@ statusLabel.Position = UDim2.new(0, 10, 1, -45)
 
 statusLabel.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-statusLabel.TextColor3 = Color3.fromRGB(0,0,0)
+statusLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
 statusLabel.Text = "Aimbot: OFF | FOV: " .. CurrentFOV
 
@@ -27264,7 +27264,7 @@ local function createCrosshairButton(data)
 
     nameLabel.Text = data.name
 
-    nameLabel.TextColor3 = Color3.fromRGB(0,0,0)
+    nameLabel.TextColor3 = Color3.fromRGB(255,255,255)
 
     nameLabel.Font = Enum.Font.Gotham
 
@@ -28592,7 +28592,7 @@ toggleFrame.Size = UDim2.new(0,40,0,20)
 
 toggleFrame.Position = UDim2.new(0,10,1,-30)
 
-toggleFrame.BackgroundColor3 = Color3.fromRGB(220,220,220)
+toggleFrame.BackgroundColor3 = Color3.fromRGB(38,38,38)
 
 toggleFrame.Parent = frame
 
@@ -28686,7 +28686,7 @@ toggleFrame.InputBegan:Connect(function(input)
 
 			toggleButton.Position = UDim2.new(0, 2, 0.5, -8)
 
-			toggleFrame.BackgroundColor3 = Color3.fromRGB(220,220,220)
+			toggleFrame.BackgroundColor3 = Color3.fromRGB(38,38,38)
 
 		end
 
@@ -28818,13 +28818,13 @@ Title.Parent = Frame
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "MAISAN"
+Title.Text = "MAISAN MENU"
 
 Title.Size = UDim2.new(1,0,0,25)
 
 Title.Position = UDim2.new(0,0,0,0)
 
-Title.TextColor3 = Color3.fromRGB(0,0,0)
+Title.TextColor3 = Color3.fromRGB(255,255,255)
 
 Title.TextSize = 16
 
@@ -28840,7 +28840,7 @@ local function MakeButton(btn, text, posY)
 
     btn.BackgroundColor3 = Color3.fromRGB(18,18,18)
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.Text = text
 
@@ -28952,7 +28952,7 @@ local buyRemote = ReplicatedStorage:WaitForChild("BuyToolEvent")
 
 local gui = Instance.new("ScreenGui")
 
-gui.Name = "MaisanMini"
+gui.Name = "PublicEnemyMini"
 
 gui.ResetOnSpawn = false
 
@@ -29014,7 +29014,7 @@ title.Size = UDim2.new(1, 0, 0, 36)
 
 title.BackgroundTransparency = 1
 
-title.Text = "MAISAN"
+title.Text = "KILL DOT ENEMY"
 
 title.TextColor3 = Color3.new(0, 0, 0)
 
@@ -29246,7 +29246,7 @@ main.Size = UDim2.new(0, 220, 0, 100)
 
 main.Position = UDim2.new(0.5, -110, 0.5, -50)
 
-main.BackgroundColor3 = Color3.fromRGB(18,18,18) -- all black
+main.BackgroundColor3 = Color3.fromRGB(255,255,255) -- all black
 
 main.Active = true -- required for dragging
 
@@ -29278,7 +29278,7 @@ title.Font = Enum.Font.GothamBold
 
 title.TextSize = 16
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.AnchorPoint = Vector2.new(0, 0)
 
@@ -29306,7 +29306,7 @@ toggleBtn.Font = Enum.Font.Gotham
 
 toggleBtn.TextSize = 14
 
-toggleBtn.TextColor3 = Color3.fromRGB(0,0,0)
+toggleBtn.TextColor3 = Color3.fromRGB(255,255,255)
 
 toggleBtn.Text = "OFF"
 
@@ -32965,7 +32965,7 @@ main.Size = UDim2.new(0, 700, 0, 400)
 
 main.Position = UDim2.new(0.5, -350, 0.5, -200)
 
-main.BackgroundColor3 = Color3.fromRGB(18,18,18)
+main.BackgroundColor3 = Color3.fromRGB(255,255,255)
 
 main.BorderSizePixel = 0
 
@@ -32993,9 +32993,9 @@ title.Size = UDim2.new(1, 0, 1, 0)
 
 title.BackgroundTransparency = 1
 
-title.Text = "MAISAN REMOTE SPY"
+title.Text = "MAISAN MENU REMOTE SPY"
 
-title.TextColor3 = Color3.fromRGB(0,0,0)
+title.TextColor3 = Color3.fromRGB(255,255,255)
 
 title.Font = Enum.Font.GothamBold
 
@@ -33099,7 +33099,7 @@ local function makeBtn(text, x)
 
     btn.Text = text
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.Font = Enum.Font.Gotham
 
@@ -33203,7 +33203,7 @@ local function createButton(remote)
 
     btn.Text = remote.Name
 
-    btn.TextColor3 = Color3.fromRGB(0,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
 
     btn.Font = Enum.Font.Code
 
@@ -33251,7 +33251,7 @@ local function addLog(text)
 
         label.Text = line
 
-        label.TextColor3 = Color3.fromRGB(0,0,0)
+        label.TextColor3 = Color3.fromRGB(255,255,255)
 
         label.Font = Enum.Font.Code
 
@@ -34056,4 +34056,14 @@ UserInputService.InputBegan:Connect(function(i, gp)
 end)
 
 
+
+-- Apply initial theme (ensures text colors are correct)
+
 applyTheme()
+
+
+
+
+
+
+
