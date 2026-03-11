@@ -6,6 +6,7 @@ local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local UIS = game:GetService("UserInputService")
 local player = Players.LocalPlayer
+local guiParent = pcall(function() return gethui() end) and gethui() or game:GetService("CoreGui")
 
 -- ============================================
 -- I-EDIT MO ITO:
@@ -41,15 +42,15 @@ end
 -- LOADING SCREEN FUNCTION
 -- ============================================
 local function showLoadingScreen()
-    if game.CoreGui:FindFirstChild("GARAPALINO_LOADING") then
-        game.CoreGui["GARAPALINO_LOADING"]:Destroy()
+    if guiParent:FindFirstChild("GARAPALINO_LOADING") then
+        guiParent["GARAPALINO_LOADING"]:Destroy()
     end
 
     local gui = Instance.new("ScreenGui")
     gui.Name = "GARAPALINO_LOADING"
     gui.IgnoreGuiInset = true
     gui.ResetOnSpawn = false
-    gui.Parent = game:GetService("CoreGui")
+    gui.Parent = guiParent
 
     local bg = Instance.new("Frame")
     bg.Size = UDim2.new(1,0,1,0)
@@ -197,15 +198,15 @@ end
 -- ============================================
 -- KEY SYSTEM GUI
 -- ============================================
-if game.CoreGui:FindFirstChild("GARAPALINO_KEY") then
-    game.CoreGui["GARAPALINO_KEY"]:Destroy()
+if guiParent:FindFirstChild("GARAPALINO_KEY") then
+    guiParent["GARAPALINO_KEY"]:Destroy()
 end
 
 local keyGui = Instance.new("ScreenGui")
 keyGui.Name = "GARAPALINO_KEY"
 keyGui.IgnoreGuiInset = true
 keyGui.ResetOnSpawn = false
-keyGui.Parent = game:GetService("CoreGui")
+keyGui.Parent = guiParent
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 380, 0, 220)
