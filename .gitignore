@@ -1,6 +1,3 @@
--- GARAPALINO MAIN LOADER
--- Flow: Key System → Loading Screen → Main Menu
-
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
@@ -14,7 +11,7 @@ local WEBHOOK_URL = "https://discord.com/api/webhooks/1454399922727288948/aHS4sw
 local MAIN_SCRIPT_URL = "https://raw.githubusercontent.com/secret663/secret/refs/heads/main/MAISAN_MENU.lua"
 
 local ValidKeys = {
-    ["GARAPALINO-XXXX-XXXX-XXXX"] = true,
+    ["zyro_baliw_123"] = true,
     ["GARAPALINO-YYYY-YYYY-YYYY"] = true,
     -- Dagdag ka pa ng keys dito
 }
