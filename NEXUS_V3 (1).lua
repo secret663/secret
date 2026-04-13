@@ -66,7 +66,7 @@ local screenGui = new("ScreenGui", {
 })
 
 -- ============================================
--- MAIN FRAME - RAZE STYLE
+-- MAIN FRAME - Nexus 
 -- ============================================
 local main = new("Frame", {
 	Name = "MainFrame",
@@ -158,7 +158,7 @@ closeBtn.MouseButton1Click:Connect(function()
 end)
 
 -- ============================================
--- LEFT PANEL - RAZE STYLE (Vertical category buttons)
+-- LEFT PANEL - (Vertical category buttons)
 -- ============================================
 local leftPanel = new("Frame", {
 	Name = "LeftPanel",
