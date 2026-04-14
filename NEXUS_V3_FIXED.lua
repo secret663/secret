@@ -28,7 +28,7 @@ local screenGui = new("ScreenGui", {
 })
 
 -- ============================================
--- MAIN FRAME - Pure Black RAZE Style
+-- MAIN FRAME - Pure
 -- ============================================
 local main = new("Frame", {
 	Name = "MainFrame",
