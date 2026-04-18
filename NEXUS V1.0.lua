@@ -9,7 +9,7 @@ if PlayerGui:FindFirstChild("Nexus") then
     PlayerGui.Nexus:Destroy()
 end
 
-local CORRECT_KEY = "MYKEY-2024"
+local CORRECT_KEY = "test"
 local LOADING_IMAGE_ID = "rbxassetid://131479970593569"
 
 local ScreenGui = Instance.new("ScreenGui")
