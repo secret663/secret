@@ -1,7 +1,3 @@
--- MY MENU V2.0
--- Key System -> Loading Screen -> GUI
--- Touch + Mouse draggable
-
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -13,11 +9,7 @@ if PlayerGui:FindFirstChild("MyMenu") then
     PlayerGui.MyMenu:Destroy()
 end
 
--- =====================
---   ILAGAY MO DITO
---   YUNG TAMANG KEY
--- =====================
-local CORRECT_KEY = "MYKEY-2024"
+local CORRECT_KEY = "NEXUS-TEST"
 local LOADING_IMAGE_ID = "rbxassetid://112389474191810"
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -28,10 +20,6 @@ ScreenGui.DisplayOrder = 10
 ScreenGui.IgnoreGuiInset = true
 ScreenGui.Parent = PlayerGui
 
--- =====================
---      KEY BOX
--- =====================
-
 local KeyFrame = Instance.new("Frame")
 KeyFrame.Size = UDim2.new(1, 0, 1, 0)
 KeyFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -39,7 +27,7 @@ KeyFrame.BorderSizePixel = 0
 KeyFrame.ZIndex = 30
 KeyFrame.Parent = ScreenGui
 
--- Falling dots sa key screen
+
 local keyDots = {}
 for i = 1, 40 do
     local dot = Instance.new("Frame")
@@ -74,7 +62,7 @@ local kbs = Instance.new("UIStroke", KeyBox)
 kbs.Color = Color3.fromRGB(68, 68, 68)
 kbs.Thickness = 1.5
 
--- Key box title bar
+
 local KeyTitleBar = Instance.new("Frame")
 KeyTitleBar.Size = UDim2.new(1, 0, 0, 36)
 KeyTitleBar.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
@@ -105,14 +93,11 @@ KeyTitleLabel.TextXAlignment = Enum.TextXAlignment.Left
 KeyTitleLabel.ZIndex = 34
 KeyTitleLabel.Parent = KeyTitleBar
 
--- =====================
---   LOGO (palitan mo yung asset ID mo)
--- =====================
 local LogoImage = Instance.new("ImageLabel")
 LogoImage.Size = UDim2.new(0, 26, 0, 26)
 LogoImage.Position = UDim2.new(0, 5, 0.5, -13)
 LogoImage.BackgroundTransparency = 1
-LogoImage.Image = "rbxassetid://0" -- << PALITAN MO NG SARILI MONG LOGO ASSET ID
+LogoImage.Image = "rbxassetid://112389474191810"
 LogoImage.ScaleType = Enum.ScaleType.Fit
 LogoImage.ZIndex = 35
 LogoImage.Parent = KeyTitleBar
