@@ -1,7 +1,3 @@
--- MY MENU V2.0
--- Key System -> Loading Screen -> GUI
--- Touch + Mouse draggable
-
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -13,12 +9,8 @@ if PlayerGui:FindFirstChild("MyMenu") then
     PlayerGui.MyMenu:Destroy()
 end
 
--- =====================
---   ILAGAY MO DITO
---   YUNG TAMANG KEY
--- =====================
-local CORRECT_KEY = "MYKEY-2024"
-local LOADING_IMAGE_ID = "rbxassetid://112389474191810"
+local CORRECT_KEY = "TEST"
+local LOADING_IMAGE_ID = "rbxassetid://131479970593569"
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "MyMenu"
@@ -112,7 +104,7 @@ local LogoImage = Instance.new("ImageLabel")
 LogoImage.Size = UDim2.new(0, 26, 0, 26)
 LogoImage.Position = UDim2.new(0, 5, 0.5, -13)
 LogoImage.BackgroundTransparency = 1
-LogoImage.Image = "rbxassetid://0" -- << PALITAN MO NG SARILI MONG LOGO ASSET ID
+LogoImage.Image = "rbxassetid://131479970593569"
 LogoImage.ScaleType = Enum.ScaleType.Fit
 LogoImage.ZIndex = 35
 LogoImage.Parent = KeyTitleBar
