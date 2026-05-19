@@ -1,6 +1,3 @@
--- ============ COMPLETE NEXUS MENU WITH ALL TABS FILLED ============
--- I-paste ito sa executor mo (Synapse X, Krnl, ScriptWare, etc.)
-
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
@@ -994,5 +991,3 @@ UserInputService.InputBegan:Connect(function(i, gp)
 		screenGui.Enabled = not screenGui.Enabled
 	end
 end)
-
-print("COMPLETE NEXUS MENU LOADED - ALL TABS HAVE CONTENT!")
