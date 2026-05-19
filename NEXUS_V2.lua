@@ -1,5 +1,3 @@
---[[ NEXUS MENU - MODIFIED VERSION ]]--
-
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
