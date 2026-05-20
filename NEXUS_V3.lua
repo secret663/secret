@@ -13,7 +13,6 @@ local playerGui = player:WaitForChild("PlayerGui")
 -- KEY SYSTEM
 -- ============================================================
 local CorrectKey = "NEXUS-MAIN-CHEAT³"
-                   "showcase"
 
 local keyGui = Instance.new("ScreenGui")
 keyGui.Name = "NexusKeySystem"
