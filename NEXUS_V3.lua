@@ -5884,7 +5884,7 @@ end)
 
 
 
-print("BURAT MONSY")
+print("BURAT MAISAN")
 
 end)
 
@@ -17368,7 +17368,7 @@ end)
 
 
 
-addMainMenuButton("AIMBOT ON AND OFF (CHESTER) (NXS)", function()
+addMainMenuButton("AIMBOT ON AND OFF (NXS)", function()
 
 	--// CONFIG
 
@@ -17552,7 +17552,7 @@ Title.Size = UDim2.new(1, 0, 0, 30)
 
 Title.BackgroundTransparency = 1
 
-Title.Text = "PERSONAL AIMBOT CHESTER" -- Custom Title
+Title.Text = "PERSONAL AIMBOT MAISAN" -- Custom Title
 
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 
@@ -27950,7 +27950,7 @@ local function createCrosshairButton(data)
 
     img.BackgroundTransparency = 1
 
-    img.Image = "rbxassetid://" .. tostring(data.id)
+    img.Image = "rbxassetid://112389474191810" .. tostring(data.id)
 
     img.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -27996,7 +27996,7 @@ local function createCrosshairButton(data)
 
         CurrentFOV = BaseFOV * data.fovMult
 
-        crosshair.Image = "rbxassetid://" .. tostring(data.id)
+        crosshair.Image = "rbxassetid://112389474191810" .. tostring(data.id)
 
         statusLabel.Text = "Aimbot: " .. (AimEnabled and "ON" or "OFF") .. " | FOV: " .. math.floor(CurrentFOV * 10) / 10
 
