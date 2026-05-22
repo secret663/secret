@@ -32,7 +32,7 @@ local _ac_player = _ac_Players.LocalPlayer
 local _ac_destroyed = 0
 
 local _ac_folderKeywords = {
-    "sluzanti","sluzan","securev","anticheat",
+    "main","sluzan","securev","anticheat",
     "anti_cheat","antiexploit","anti_exploit",
     "antitamper","kickscript","autokick","cheatdetect",
     "exploitdetect","hackdetect","morrix",
